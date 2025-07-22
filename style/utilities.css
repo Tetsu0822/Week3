@@ -170,6 +170,10 @@
     }
 }
 
+.gap-0 {
+    gap: 0px;
+}
+
 .gap-8 {
     gap: 8px;
 }
@@ -492,6 +496,10 @@
 }
 
 /* Index Page */
+.mobile-nav {
+
+    margin-bottom: 0;
+}
 .mobile-nav-item {
     background-color: var(--primary-100);
     padding: 12px 24px;
