@@ -1,0 +1,8 @@
+/* Layout */
+.copyright {
+    border-top: 1px solid var(--neutral-300);
+    padding-top: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--neutral-600)
+}

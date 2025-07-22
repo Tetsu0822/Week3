@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: var(--font-base-size);
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--neutral-900);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: var(--neutral-900);
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--neutral-600);
+}
+
+a:focus {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+a:disabled {
+    opacity: 0.6;
+}
