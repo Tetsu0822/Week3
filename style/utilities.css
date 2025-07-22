@@ -505,7 +505,7 @@
     }
 
     .mobile li {
-        flex: 0 0 50%; /* 每個 li 佔一半 */
+        flex: 0 0 50%;
         list-style: none;
         text-align: center;
         background-color: var(--primary-100);
@@ -517,21 +517,10 @@
 
     .mobile li a {
         display: block;
-        padding: 12px 24px; /* 可依需要調整內距 */
+        padding: 12px 24px;
         text-align: center;
     }
 
-}
-
-
-.mobile-nav-item {
-    background-color: var(--primary-100);
-    padding: 12px 24px;
-    text-align: center;
-}
-
-.mobile-nav-item.active {
-    background-color: var(--primary-200);
 }
 
 .hero-section {
