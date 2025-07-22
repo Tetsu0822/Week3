@@ -496,10 +496,34 @@
 }
 
 /* Index Page */
-.mobile-nav {
+@media (max-width: 768px) {
+    .mobile {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
 
-    margin-bottom: 0;
+    .mobile li {
+        flex: 0 0 50%; /* 每個 li 佔一半 */
+        list-style: none;
+        text-align: center;
+        background-color: var(--primary-100);
+    }
+
+    .mobile li.active {
+        background-color: var(--primary-200);
+    }
+
+    .mobile li a {
+        display: block;
+        padding: 12px 24px; /* 可依需要調整內距 */
+        text-align: center;
+    }
+
 }
+
+
 .mobile-nav-item {
     background-color: var(--primary-100);
     padding: 12px 24px;
